@@ -83,6 +83,8 @@ def Explain(word: str) -> str | int:
         index += 1
     return ReturnText
 
-
-word = input()
-print(Explain(word))
+try:
+    word = input()
+    print(Explain(word))
+except TypeError:
+    print("Слово не найдено")

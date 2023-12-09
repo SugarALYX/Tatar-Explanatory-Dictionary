@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Ввёл татарский толковый словарь, разделив на текстовые файлы по-буквенно.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Сделал программу для нахожднния слов" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,11 +114,20 @@
       <option name="project" value="LOCAL" />
       <updated>1702136737789</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Сделал программу для нахожднния слов">
+      <option name="closed" value="true" />
+      <created>1702144638107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702144638107</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ввёл татарский толковый словарь, разделив на текстовые файлы по-буквенно." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ввёл татарский толковый словарь, разделив на текстовые файлы по-буквенно." />
+    <MESSAGE value="Сделал программу для нахожднния слов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал программу для нахожднния слов" />
   </component>
 </project>
