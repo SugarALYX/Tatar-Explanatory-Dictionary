@@ -1,15 +1,16 @@
-def Explain(word: str) -> str | int:
+def Explain(Your_word: str) -> str | int:
     """
     Функция находит слова(param word) и даёт ему объяснение, найдя его в тестовом файле
-    :param word: Искомое слово
+    :param Your_word: Искомое слово
     :return: текст объяснения
     """
+
     def file_Txt() -> str:
         """
         Находит подходящий файл по слову
         :return: подходящий файл
         """
-        match word[0]:
+        match Your_word[0]:
             case "А":
                 return "Aa.txt"
             case "Ә":
@@ -72,7 +73,8 @@ def Explain(word: str) -> str | int:
                 return "Juju.txt"
             case "Я":
                 return "Jaja.txt"
-    wordEX = word + " -"
+
+    wordEX = Your_word + " -"
 
     ReturnText = ""
     fileo = open(file_Txt(), "r", encoding="utf-8")
