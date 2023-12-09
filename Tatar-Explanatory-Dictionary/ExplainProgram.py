@@ -10,67 +10,67 @@ def Explain(word: str) -> str | int:
         :return: подходящий файл
         """
         match word[0]:
-            case "A" | "a":
+            case "А":
                 return "Aa.txt"
-            case "Ә" | "ә":
+            case "Ә":
                 return "A`a`.txt"
-            case "Б" | "б":
+            case "Б":
                 return "Bb.txt"
-            case "В" | "в":
+            case "В":
                 return "Vv.txt"
-            case "Г" | "г":
+            case "Г":
                 return "Gg.txt"
-            case "Д" | "д":
+            case "Д":
                 return "Dd.txt"
-            case "Җ" | "Җ" | "Ж" | "ж":
+            case "Җ" | "Ж":
                 return "Jeje.txt"
-            case "З" | "з":
+            case "З":
                 return "Zz.txt"
-            case "И" | "и":
+            case "И":
                 return "Ii.txt"
-            case "Й" | "й":
+            case "Й":
                 return "Jj.txt"
-            case "К" | "к":
+            case "К":
                 return "Kk.txt"
-            case "Л" | "л":
+            case "Л":
                 return "Ll.txt"
-            case "М" | "м":
+            case "М":
                 return "Mm.txt"
-            case "Н" | "н":
+            case "Н":
                 return "Nn.txt"
-            case "О" | "о":
+            case "О":
                 return "Oo.txt"
-            case "Ө" | "ө":
+            case "Ө":
                 return "O`o`.txt"
-            case "П" | "п":
+            case "П":
                 return "Pp.txt"
-            case "Р" | "р":
+            case "Р":
                 return "Rr.txt"
-            case "С" | "с":
+            case "С":
                 return "Ss.txt"
-            case "Т" | "т":
+            case "Т":
                 return "Tt.txt"
-            case "У" | "У":
+            case "У":
                 return "Uu.txt"
-            case "Ү" | "ү":
+            case "Ү":
                 return "U`u`.txt"
-            case "Ф" | "ф":
+            case "Ф":
                 return "Ff.txt"
-            case "Х" | "х":
+            case "Х":
                 return "Hh.txt"
-            case "Һ" | "һ":
+            case "Һ":
                 return "H`h`.txt"
-            case "Ч" | "ч":
+            case "Ч":
                 return "Chch.txt"
-            case "Ш" | "ш":
+            case "Ш":
                 return "Shsh.txt"
-            case "Ы" | "ы":
+            case "Ы":
                 return "Yy.txt"
-            case "Э" | "э":
+            case "Э":
                 return "Ee.txt"
-            case "Ю" | "ю":
+            case "Ю":
                 return "Juju.txt"
-            case "Я" | "я":
+            case "Я":
                 return "Jaja.txt"
     wordEX = word + " -"
 
@@ -85,7 +85,9 @@ def Explain(word: str) -> str | int:
 
 
 try:
-    word = input()
+    word = input("Введите слово(первая буква ЗАГЛАВНАЯ, остальные строчные):  ")
     print(Explain(word))
 except TypeError:
     print("Слово не найдено")
+
+# Ә ә, Ө ө, Ү ү, Җ җ, Ң ң, Һ һ
