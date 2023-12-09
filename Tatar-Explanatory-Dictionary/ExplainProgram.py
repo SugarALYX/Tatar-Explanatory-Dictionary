@@ -83,6 +83,7 @@ def Explain(word: str) -> str | int:
         index += 1
     return ReturnText
 
+
 try:
     word = input()
     print(Explain(word))
