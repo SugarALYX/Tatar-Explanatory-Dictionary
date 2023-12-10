@@ -79,15 +79,19 @@ def Explain(Your_word: str) -> str | int:
     ReturnText = ""
     fileo = open(file_Txt(), "r", encoding="utf-8")
     fileText = fileo.read()
-    index = fileText.find(wordEX)
-    while fileText[index] != "\n":
-        ReturnText += fileText[index]
-        index += 1
-    return ReturnText
+    if word in fileText:
+        index = fileText.find(wordEX)
+        while fileText[index] != "\n":
+            ReturnText += fileText[index]
+            index += 1
+        return ReturnText
+    else:
+        return "Слово не найдено"
 
 
 try:
-    word = input("Введите слово(первая буква ЗАГЛАВНАЯ, остальные строчные):  ")
+    word = input("Введите слово:  ")
+    word = word.capitalize()
     print(Explain(word))
 except TypeError:
     print("Слово не найдено")
