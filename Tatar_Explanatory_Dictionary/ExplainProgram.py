@@ -1,4 +1,4 @@
-def Explain(Your_word: str) -> str | int:
+def Explain(Your_word: str) -> str:
     """
     Функция находит слова(param word) и даёт ему объяснение, найдя его в тестовом файле
     :param Your_word: Искомое слово
@@ -24,7 +24,7 @@ def Explain(Your_word: str) -> str | int:
             case "Д":
                 return "Dd.txt"
             case "Җ" | "Ж":
-                return "Jeje.txt"
+                return "Zhzh.txt"
             case "З":
                 return "Zz.txt"
             case "И":

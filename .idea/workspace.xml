@@ -6,39 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Доработал...">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/A`a`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/A`a`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Aa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Bb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Chch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Chch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Dd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Dd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Ee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Ee.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/ExplainProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/ExplainProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Ff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Ff.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Gg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Gg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/H`h`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/H`h`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Hh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Hh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Ii.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Ii.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Jaja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Jaja.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Jeje.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Jeje.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Jj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Jj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Juju.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Juju.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Kk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Kk.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Ll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Ll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Mm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Mm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Nn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Nn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/O`o`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/O`o`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Oo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Oo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Pp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Pp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Rr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Rr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Shsh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Shsh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Ss.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Ss.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Tt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Tt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/U`u`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/U`u`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Uu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Uu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Vv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Vv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Yy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Yy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Zhzh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Zhzh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/Zz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/Zz.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +68,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Main\Tatar-Explanatory-Dictionary" />
+      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Main\Web" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Main" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ExplainProgram (1)">
-    <configuration name="ExplainProgram (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.MainWeb">
+    <configuration name="ExplainProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tatar-Explanatory-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/Tatar-Explanatory-Dictionary/ExplainProgram.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Main\ExplainProgram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,9 +116,51 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ExplainProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tatar-Explanatory-Dictionary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Main\Tatar-Explanatory-Dictionary\ExplainProgram.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MainWeb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tatar-Explanatory-Dictionary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main/Web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/Web/MainWeb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ExplainProgram (1)" />
+        <item itemvalue="Python.MainWeb" />
         <item itemvalue="Python.ExplainProgram" />
       </list>
     </recent_temporary>
@@ -227,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702147165130</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Доработал...">
+      <option name="closed" value="true" />
+      <created>1702202362454</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702202362454</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Доработал...">
+      <option name="closed" value="true" />
+      <created>1702202382258</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702202382258</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
