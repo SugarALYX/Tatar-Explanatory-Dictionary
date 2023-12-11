@@ -84,6 +84,13 @@ def Explain(Your_word: str) -> str:
         while fileText[index] != "\n":
             ReturnText += fileText[index]
             index += 1
+        for i in range(120, len(ReturnText), 120):
+            char = i
+            if char <= len(ReturnText):
+                while char < len(ReturnText) and ReturnText[char] != " ":
+                    char += 1
+                else:
+                    ReturnText = ReturnText[:char] + "\n" + ReturnText[char+1:]
         return ReturnText
     else:
         return "Слово не найдено"
