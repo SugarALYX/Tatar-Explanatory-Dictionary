@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Переработка">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Изменил функцию file_txt">
       <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -383,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702491980193</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Изменил функцию file_txt">
+      <option name="closed" value="true" />
+      <created>1702739968334</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702739968334</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -394,6 +401,7 @@
     <MESSAGE value="Улучшил вывод текста" />
     <MESSAGE value="Работа над добавлением новых слов" />
     <MESSAGE value="Переработка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переработка" />
+    <MESSAGE value="Изменил функцию file_txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменил функцию file_txt" />
   </component>
 </project>

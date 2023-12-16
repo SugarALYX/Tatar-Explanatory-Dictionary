@@ -154,9 +154,6 @@ class App:
         GLabel_720["text"] = "Автор: Шайхутдинов Абу Бакр Ильгамович"
         GLabel_720.place(x=1000, y=670, width=252, height=30)
 
-    def Command(self):
-        print(Explain("Алма"))
-
 
 if __name__ == "__main__":
     root = tk.Tk()
