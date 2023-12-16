@@ -2,74 +2,46 @@ import tkinter as tk
 import tkinter.font as tkFont
 
 
-def file_txt(Your_word) -> str:
+def file_txt(Your_word: str) -> str:
     """
     Находит подходящий файл по слову
     :return: подходящий файл
     """
-    match Your_word[0]:
-        case "А":
-            return "Aa.txt"
-        case "Ә":
-            return "A`a`.txt"
-        case "Б":
-            return "Bb.txt"
-        case "В":
-            return "Vv.txt"
-        case "Г":
-            return "Gg.txt"
-        case "Д":
-            return "Dd.txt"
-        case "Җ" | "Ж":
-            return "Zhzh.txt"
-        case "З":
-            return "Zz.txt"
-        case "И":
-            return "Ii.txt"
-        case "Й":
-            return "Jj.txt"
-        case "К":
-            return "Kk.txt"
-        case "Л":
-            return "Ll.txt"
-        case "М":
-            return "Mm.txt"
-        case "Н":
-            return "Nn.txt"
-        case "О":
-            return "Oo.txt"
-        case "Ө":
-            return "O`o`.txt"
-        case "П":
-            return "Pp.txt"
-        case "Р":
-            return "Rr.txt"
-        case "С":
-            return "Ss.txt"
-        case "Т":
-            return "Tt.txt"
-        case "У":
-            return "Uu.txt"
-        case "Ү":
-            return "U`u`.txt"
-        case "Ф":
-            return "Ff.txt"
-        case "Х":
-            return "Hh.txt"
-        case "Һ":
-            return "H`h`.txt"
-        case "Ч":
-            return "Chch.txt"
-        case "Ш":
-            return "Shsh.txt"
-        case "Ы":
-            return "Yy.txt"
-        case "Э":
-            return "Ee.txt"
-        case "Ю":
-            return "Juju.txt"
-        case "Я":
-            return "Jaja.txt"
+    Files = {
+        "А": "Aa.txt",
+        "Ә": "A`a`.txt",
+        "Б": "Bb.txt",
+        "В": "Vv.txt",
+        "Г": "Gg.txt",
+        "Д": "Dd.txt",
+        "Җ": "Zhzh.txt",
+        "Ж": "Zhzh.txt",
+        "З": "Zz.txt",
+        "И": "Ii.txt",
+        "Й": "Jj.txt",
+        "К": "Kk.txt",
+        "Л": "Ll.txt",
+        "М": "Mm.txt",
+        "Н": "Nn.txt",
+        "О": "Oo.txt",
+        "Ө": "O`o`.txt",
+        "П": "Pp.txt",
+        "Р": "Rr.txt",
+        "С": "Ss.txt",
+        "Т": "Tt.txt",
+        "У": "Uu.txt",
+        "Ү": "U`u`.txt",
+        "Ф": "Ff.txt",
+        "Х": "Hh.txt",
+        "Һ": "H`h`.txt",
+        "Ч": "Chch.txt",
+        "Ш": "Shsh.txt",
+        "Ы": "Yy.txt",
+        "Э": "Ee.txt",
+        "Ю": "Juju.txt",
+        "Я": "Jaja.txt"
+    }
+    return Files[Your_word[0]]
 
 
 def Explain(Your_word: str) -> str:
@@ -96,7 +68,7 @@ def Explain(Your_word: str) -> str:
                     while char < len(ReturnText) and ReturnText[char] != " ":
                         char += 1
                     else:
-                        ReturnText = ReturnText[:char] + "\n" + ReturnText[char+1:]
+                        ReturnText = ReturnText[:char] + "\n" + ReturnText[char + 1:]
             return ReturnText
         else:
             return "Слово не найдено"
@@ -111,6 +83,7 @@ def WordAdd(New_word: str):
     :return: Записывает новое слово для дальнейшего использования
     """
     pass
+
 
 # Ә ә, Ө ө, Ү ү, Җ җ, Ң ң, Һ һ
 
@@ -137,7 +110,7 @@ class App:
 
         GButton_703 = tk.Button(root)
         GButton_703["bg"] = "#f0f0f0"
-        ft = tkFont.Font(family='Times', size=10)
+        ft = tkFont.Font(family='Times', size=20)
         GButton_703["font"] = ft
         GButton_703["fg"] = "#000000"
         GButton_703["justify"] = "center"
@@ -182,7 +155,7 @@ class App:
         GLabel_720.place(x=1000, y=670, width=252, height=30)
 
     def Command(self):
-        pass
+        print(Explain("Алма"))
 
 
 if __name__ == "__main__":
