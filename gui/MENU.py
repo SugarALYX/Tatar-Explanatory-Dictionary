@@ -5,7 +5,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 ASSETS_PATH = r"assets/frame0"
 
 window = Tk()
-
+window.title("Татарский толковый словарь")
 window.geometry("1280x720")
 window.configure(bg="#504D4D")
 

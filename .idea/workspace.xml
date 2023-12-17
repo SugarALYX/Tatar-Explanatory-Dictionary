@@ -4,41 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="continue">
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Another gui">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/A`a`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/A`a`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Aa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Bb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Chch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Chch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Dd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Dd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Ee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Ee.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Ff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Ff.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Gg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Gg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/H`h`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/H`h`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Hh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Hh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Ii.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Ii.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Jaja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Jaja.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Jeje.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Jeje.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Jj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Jj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Juju.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Juju.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Kk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Kk.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Ll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Ll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Mm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Mm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Nn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Nn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/O`o`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/O`o`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Oo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Oo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Pp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Pp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Rr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Rr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Shsh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Shsh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Ss.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Ss.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Tt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Tt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/U`u`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/U`u`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Uu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Uu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Vv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Vv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Yy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Yy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Zhzh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Zhzh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Zz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Words/Zz.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +100,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\Words" />
+      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\GUI" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\Menu\assets" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\Menu\assets\frame0" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary" />
-      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\Words" />
-      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.MENU (1)">
+  <component name="RunManager" selected="Python.Simple mod">
     <configuration name="Aboba" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tatar-Explanatory-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,27 +121,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/Aboba.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ExplainProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Tatar-Explanatory-Dictionary" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tatar-Explanatory-Dictionary" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tatar-Explanatory-Dictionary/ExplainProgram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +213,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Simple mod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tatar-Explanatory-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,11 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tatar_Explanatory_Dictionary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/GUI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tatar_Explanatory_Dictionary/GUI/Simple mod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,11 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Simple mod" />
         <item itemvalue="Python.MENU (1)" />
         <item itemvalue="Python.MENU" />
         <item itemvalue="Python.Main (1)" />
         <item itemvalue="Python.Aboba" />
-        <item itemvalue="Python.ExplainProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702748393830</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Another gui">
+      <option name="closed" value="true" />
+      <created>1702755293512</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702755293512</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,6 +449,7 @@
     <MESSAGE value="Переработка" />
     <MESSAGE value="Изменил функцию file_txt" />
     <MESSAGE value="continue" />
-    <option name="LAST_COMMIT_MESSAGE" value="continue" />
+    <MESSAGE value="Another gui" />
+    <option name="LAST_COMMIT_MESSAGE" value="Another gui" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-def file_txt(Your_word: str) -> str:
+def file_txt(Your_word: str, pathx: str) -> str:
     """
     Находит подходящий файл по слову
     :return: подходящий файл
@@ -37,12 +37,13 @@ def file_txt(Your_word: str) -> str:
         "Ю": "Juju.txt",
         "Я": "Jaja.txt"
     }
-    return Files[Your_word[0]]
+    return pathx + Files[Your_word[0]]
 
 
-def Explain(Your_word: str) -> str:
+def Explain(Your_word: str, path: str) -> str:
     """
     Функция находит слова(param word) и даёт ему объяснение, найдя его в тестовом файле
+    :param path: путь к файлу
     :param Your_word: Искомое слово
     :return: текст объяснения
     """
@@ -51,20 +52,13 @@ def Explain(Your_word: str) -> str:
         wordEX = Your_word + " -"
 
         ReturnText = ""
-        fileo = open(file_txt(Your_word), "r", encoding="utf-8")
+        fileo = open(file_txt(Your_word, path), "r", encoding="utf-8")
         fileText = fileo.read()
         if wordEX in fileText:
             index = fileText.find(wordEX)
             while fileText[index] != "\n":
                 ReturnText += fileText[index]
                 index += 1
-            for i in range(120, len(ReturnText), 120):
-                char = i
-                if char <= len(ReturnText):
-                    while char < len(ReturnText) and ReturnText[char] != " ":
-                        char += 1
-                    else:
-                        ReturnText = ReturnText[:char] + "\n" + ReturnText[char + 1:]
             return ReturnText
         else:
             return "Слово не найдено"
