@@ -1,5 +1,6 @@
-from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
+from tkinter import Tk, Canvas, Button, PhotoImage
 from Simplemod import SimpleModMenu
+from RandomMod import RandomModMenu
 
 
 class MenuOfDictionary:
@@ -13,6 +14,9 @@ class MenuOfDictionary:
 
         def CreatSimpleModWindow():
             SimpleModMenu(self.Menu)
+
+        def CreatRandomModWindow():
+            RandomModMenu(self.Menu)
 
         self.canvas = Canvas(
             self.Menu,
@@ -80,11 +84,12 @@ class MenuOfDictionary:
             image=self.button_image_3,
             borderwidth=0,
             highlightthickness=0,
-            relief="flat"
+            relief="flat",
+            command=CreatRandomModWindow
         )
         self.RandomModButton.place(
             x=46.0,
-            y=371.0,
+            y=369.0,
             width=524.0,
             height=105.0
         )

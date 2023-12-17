@@ -1,4 +1,4 @@
-from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage, END, Toplevel
+from tkinter import Canvas, Entry, Text, Button, PhotoImage, END, Toplevel
 from gui.WordFind import Explain
 
 
@@ -31,7 +31,7 @@ class SimpleModMenu:
         )
         self.Explaining = Text(
             self.SimpleModWindow,
-            font=("Inter SemiBold", 25 * -1),
+            font=("Inter SemiBold", 35 * -1),
             bd=0,
             bg="#6EB755",
             fg="#000716",
@@ -54,7 +54,7 @@ class SimpleModMenu:
             outline="")
 
         self.entry_image_2 = PhotoImage(
-            file=f"{ASSETS_PATHz}/entry_2.png",)
+            file=f"{ASSETS_PATHz}/entry_2.png", )
         self.entry_bg_2 = self.canv.create_image(
             346.0,
             113.5,
@@ -63,6 +63,7 @@ class SimpleModMenu:
         self.YourWord = Entry(
             self.SimpleModWindow,
             font=("Inter SemiBold", 50 * -1),
+            justify="center",
             bd=0,
             bg="#6EB755",
             fg="#000716",
