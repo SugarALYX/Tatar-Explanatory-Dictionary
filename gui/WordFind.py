@@ -1,3 +1,6 @@
+import random as r
+
+
 def file_txt(Your_word: str, pathx: str) -> str:
     """
     Находит подходящий файл по слову
@@ -74,3 +77,32 @@ def WordAdd(New_word: str):
     """
     pass
 
+
+def random_word(path: str) -> str:
+    """
+    Функция находит случайное слово и её определение
+    :param path: путь к репозиторию
+    :return:
+    """
+    files = ["Aa.txt", "A`a`.txt", "Bb.txt", "Vv.txt", "Gg.txt", "Dd.txt", "Zhzh.txt", "Zhzh.txt", "Zz.txt", "Ii.txt",
+             "Jj.txt", "Kk.txt", "Ll.txt", "Mm.txt", "Nn.txt", "Oo.txt", "O`o`.txt", "Pp.txt", "Ss.txt", "Tt.txt",
+             "Uu.txt", "U`u`.txt", "Ff.txt", "Hh.txt", "H`h`.txt", "Chch.txt", "Shsh.txt", "Yy.txt", "Ee.txt",
+             "Juju.txt", "Jaja.txt"]
+    fileo = open(f"{path}{files[r.randint(0, len(files))]}", "r", encoding="utf-8")
+    fileText = fileo.read()
+    ReturnWord = ""
+    index = r.randint(0, len(fileText))
+    while True:
+        try:
+            while fileText[index] != "\n":
+                index += 1
+            while fileText[index] == "\n":
+                index += 1
+            while fileText[index] != "\n":
+                ReturnWord += fileText[index]
+                index += 1
+            if index == "\n":
+                break
+        except IndexError:
+            index = r.randint(0, len(fileText))
+        return ReturnWord
