@@ -1,6 +1,6 @@
 import tkinter
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
-from gui.assets.WordFind import Explain
+from gui.WordFind import Explain
 
 
 def Find():
@@ -40,7 +40,7 @@ entry_1 = Text(
     bg="#6EB755",
     fg="#000716",
     highlightthickness=0,
-    wrap="word"
+    wrap="word",
 )
 entry_1.place(
     x=46.0,

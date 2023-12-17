@@ -1,5 +1,3 @@
-# from tkinter import *
-# Explicit imports to satisfy Flake8
 from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 ASSETS_PATH = r"assets/frame0"
