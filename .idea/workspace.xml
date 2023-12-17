@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Another gui">
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="маленькие исправления">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/MENU.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MENU.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Simple mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Simple mod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/WordFind.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +100,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\gui\assets" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\gui" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\MainProgramms" />
-      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.WordFind (1)">
+  <component name="RunManager" selected="Python.Simple mod (2)">
     <configuration name="ExplainProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tatar-Explanatory-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -218,10 +215,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Simple mod (2)" />
         <item itemvalue="Python.WordFind (1)" />
         <item itemvalue="Python.WordFind (2)" />
         <item itemvalue="Python.ExplainProgram" />
-        <item itemvalue="Python.Simple mod (2)" />
         <item itemvalue="Python.MENU" />
       </list>
     </recent_temporary>
@@ -403,7 +400,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702803286167</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Добавил функцию поиска случайного слова">
+      <option name="closed" value="true" />
+      <created>1702809967689</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702809967689</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Добавил функцию поиска случайного слова и случайного объяснения для него">
+      <option name="closed" value="true" />
+      <created>1702812336372</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702812336372</updated>
+    </task>
+    <task id="LOCAL-00024" summary="маленькие исправления">
+      <option name="closed" value="true" />
+      <created>1702812374757</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1702812374757</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +438,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Another-gui" />
+                        <option value="origin/main" />
                       </list>
                     </value>
                   </entry>
@@ -440,6 +461,9 @@
     <MESSAGE value="Изменил функцию file_txt" />
     <MESSAGE value="continue" />
     <MESSAGE value="Another gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="Another gui" />
+    <MESSAGE value="Добавил функцию поиска случайного слова" />
+    <MESSAGE value="Добавил функцию поиска случайного слова и случайного объяснения для него" />
+    <MESSAGE value="маленькие исправления" />
+    <option name="LAST_COMMIT_MESSAGE" value="маленькие исправления" />
   </component>
 </project>
