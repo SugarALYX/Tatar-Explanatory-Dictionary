@@ -8,7 +8,7 @@ class SimpleModMenu:
         self.SimpleModWindow = Toplevel(parent)
         self.SimpleModWindow.geometry("1280x720")
         self.SimpleModWindow.configure(bg="#514D4D")
-        self.SimpleModWindow.title("Татарский толковый словарь")
+        self.SimpleModWindow.title("Простой режим")
         self.SimpleModWindow.resizable(False, False)
 
         self.canv = Canvas(
@@ -20,7 +20,6 @@ class SimpleModMenu:
             highlightthickness=0,
             relief="ridge"
         )
-
         self.canv.place(x=0, y=0)
         self.entry_image_1 = PhotoImage(
             file=f"{ASSETS_PATHz}/entry_1.png")
@@ -76,13 +75,12 @@ class SimpleModMenu:
             height=135.0
         )
 
-        self.button_image_1 = PhotoImage(
-            file=f"{ASSETS_PATHz}/button_1.png")
-
         def Find():
             self.Explaining.delete(1.0, END)
             self.Explaining.insert(1.0, Explain(self.YourWord.get(), r"Words/"))
 
+        self.button_image_1 = PhotoImage(
+            file=f"{ASSETS_PATHz}/button_1.png")
         self.FindButton = Button(
             self.SimpleModWindow,
             image=self.button_image_1,
@@ -92,7 +90,7 @@ class SimpleModMenu:
             relief="flat"
         )
         self.FindButton.place(
-            x=706.0,
+            x=690.0,
             y=37.0,
             width=551.6851196289062,
             height=152.0

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="маленькие исправления">
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Доработка, режим случайных слов.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/MENU.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/MENU.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/Simplemod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Simplemod.py" afterDir="false" />
@@ -114,7 +114,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.MENU">
-    <configuration name="ExplainProgram" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="GameMod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tatar-Explanatory-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Main\Tatar-Explanatory-Dictionary\ExplainProgram.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/GameMod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,10 +222,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.MENU" />
+        <item itemvalue="Python.GameMod" />
         <item itemvalue="Python.Simplemod (1)" />
         <item itemvalue="Python.Simplemod" />
         <item itemvalue="Python.WordFind (1)" />
-        <item itemvalue="Python.ExplainProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +438,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702824108303</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Доработка, режим случайных слов.">
+      <option name="closed" value="true" />
+      <created>1702838106690</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702838106690</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -478,6 +486,7 @@
     <MESSAGE value="Добавил функцию поиска случайного слова" />
     <MESSAGE value="Добавил функцию поиска случайного слова и случайного объяснения для него" />
     <MESSAGE value="маленькие исправления" />
-    <option name="LAST_COMMIT_MESSAGE" value="маленькие исправления" />
+    <MESSAGE value="Доработка, режим случайных слов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработка, режим случайных слов." />
   </component>
 </project>

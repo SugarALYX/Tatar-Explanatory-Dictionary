@@ -1,6 +1,7 @@
 from tkinter import Tk, Canvas, Button, PhotoImage
 from Simplemod import SimpleModMenu
 from RandomMod import RandomModMenu
+from GameMod import GameModMenu
 
 
 class MenuOfDictionary:
@@ -18,6 +19,9 @@ class MenuOfDictionary:
         def CreatRandomModWindow():
             RandomModMenu(self.Menu)
 
+        def CreatGameModWindow():
+            GameModMenu(self.Menu)
+
         self.canvas = Canvas(
             self.Menu,
             bg="#504D4D",
@@ -27,7 +31,6 @@ class MenuOfDictionary:
             highlightthickness=0,
             relief="ridge"
         )
-
         self.canvas.place(x=0, y=0)
         self.image_image_1 = PhotoImage(
             file=f"{ASSETS_PATH}/image_1.png")
@@ -68,7 +71,7 @@ class MenuOfDictionary:
             image=self.button_image_2,
             borderwidth=0,
             highlightthickness=0,
-            command=lambda: print("button_2 clicked"),
+            command=CreatGameModWindow,
             relief="flat"
         )
         self.GameModButton.place(
