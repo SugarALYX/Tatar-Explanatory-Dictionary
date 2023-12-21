@@ -1,12 +1,12 @@
 from tkinter import Tk, Canvas, Button, PhotoImage
-from Simplemod import SimpleModMenu
-from RandomMod import RandomModMenu
-from GameMod import GameModMenu
+from gui.Interface.Simplemod import SimpleModMenu
+from gui.Interface.RandomMod import RandomModMenu
+from gui.Interface.GameMod import GameModMenu
 
 
 class MenuOfDictionary:
     def __init__(self):
-        ASSETS_PATH = r"assets/frame0"
+        ASSETS_PATH = r"Interface/assets/frame0"
         self.Menu = Tk()
         self.Menu.title("Татарский толковый словарь")
         self.Menu.geometry("1280x720")
@@ -14,13 +14,19 @@ class MenuOfDictionary:
         self.Menu.resizable(False, False)
 
         def CreatSimpleModWindow():
-            SimpleModMenu(self.Menu)
+            self.Menu.destroy()
+            self.app = SimpleModMenu()
+            self.app.run()
 
         def CreatRandomModWindow():
-            RandomModMenu(self.Menu)
+            self.Menu.destroy()
+            self.app = RandomModMenu()
+            self.app.run()
 
         def CreatGameModWindow():
-            GameModMenu(self.Menu)
+            self.Menu.destroy()
+            self.app = GameModMenu()
+            self.app.run()
 
         self.canvas = Canvas(
             self.Menu,
@@ -145,7 +151,7 @@ class MenuOfDictionary:
     def run(self):
         self.Menu.mainloop()
 
+    def iconic(self):
+        self.Menu.deiconify()
 
-if __name__ == "__main__":
-    app = MenuOfDictionary()
-    app.run()
+
