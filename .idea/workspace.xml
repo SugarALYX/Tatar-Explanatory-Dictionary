@@ -4,70 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Работа над GameMod.py">
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Доработка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/GameMod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/GameMod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/MENU.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/RandomMod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/RandomMod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Simplemod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Simplemod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/WordFind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/A`a`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/A`a`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Aa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Bb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Chch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Chch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Dd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Dd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Ee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Ee.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Ff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Ff.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Gg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Gg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/H`h`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/H`h`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Hh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Hh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Ii.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Ii.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Jaja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Jaja.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Jeje.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Jeje.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Jj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Jj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Juju.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Juju.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Kk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Kk.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Ll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Ll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Mm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Mm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Nn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Nn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/O`o`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/O`o`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Oo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Oo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Pp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Pp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Rr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Rr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Shsh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Shsh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Ss.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Ss.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Tt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Tt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/U`u`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/U`u`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Uu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Uu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Vv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Vv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Yy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Yy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Zhzh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Zhzh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/Zz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/Zz.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Words/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Words/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/button_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/button_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/button_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/button_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/button_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/button_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/image_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/image_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/image_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/image_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/image_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/image_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame0/image_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame0/image_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/button_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/button_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/button_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/button_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/button_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/button_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/entry_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/entry_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/entry_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/entry_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/image_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/image_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/image_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/image_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/image_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/image_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame1/image_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame1/image_4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame2/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame2/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame2/button_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame2/button_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame2/button_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame2/button_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame2/entry_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame2/entry_2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/assets/frame2/entry_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/assets/frame2/entry_3.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -513,7 +451,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702928074798</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Доработан игровой режим">
+      <option name="closed" value="true" />
+      <created>1703179919953</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1703179919953</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Доработка">
+      <option name="closed" value="true" />
+      <created>1703182965584</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1703182965584</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,6 +509,8 @@
     <MESSAGE value="маленькие исправления" />
     <MESSAGE value="Доработка, режим случайных слов." />
     <MESSAGE value="Работа над GameMod.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работа над GameMod.py" />
+    <MESSAGE value="Доработан игровой режим" />
+    <MESSAGE value="Доработка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработка" />
   </component>
 </project>
