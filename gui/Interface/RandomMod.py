@@ -67,6 +67,9 @@ class RandomModMenu:
             file=f"{ASSETS_PATH}/button_1.png")
 
         def Random():
+            """
+            Функция нахождения случайного слова с определение(которое принадлежит этому слову)
+            """
             self.Explaining.delete(1.0, END)
             self.Explaining.insert(1.0, random_word_with_explain(r"Interface/Words/"))
 
