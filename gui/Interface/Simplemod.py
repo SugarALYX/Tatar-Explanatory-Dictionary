@@ -76,6 +76,9 @@ class SimpleModMenu:
         )
 
         def Find():
+            """
+            Функция нахождение слова
+            """
             self.Explaining.delete(1.0, END)
             self.Explaining.insert(1.0, Explain(self.YourWord.get(), r"Interface/Words/"))
 

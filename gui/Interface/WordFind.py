@@ -119,6 +119,11 @@ def random_word_with_explain(way: str) -> str:
 
 
 def random_word_random_explain(way: str) -> str:
+    """
+    Находит слово и даёт ему случайное определение(неверное)
+    :param way: путь к файлу
+    :return: слово и определение
+    """
     ReturnWord = ""
     ForWordWay = random_file(way)
     index = r.randint(0, len(ForWordWay))

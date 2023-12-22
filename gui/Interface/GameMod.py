@@ -22,7 +22,11 @@ class GameModMenu:
             relief="ridge"
         )
 
-        def WordInText():
+        def WordInText() -> str:
+            """
+            Функция для выделение слова из поля для вопроса
+            :return: слово
+            """
             ReturnText = ""
             index = 0
             text = self.Text_For_Description.get(1.0, END)
@@ -34,6 +38,9 @@ class GameModMenu:
             return ReturnText
 
         def game():
+            """
+            Функция игры(выводит в поле вопроса слово и определение)
+            """
             if random.randint(1, 2) == 1:
                 self.Text_For_Description.delete(1.0, END)
                 self.Text_For_Description.insert(1.0, random_word_with_explain(r"Interface/Words/"))
@@ -44,6 +51,9 @@ class GameModMenu:
                 self.T = 0
 
         def checkT():
+            """
+            Проверка ответа
+            """
             if self.T == 1:
                 self.Explaining.delete(1.0, END)
                 self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
@@ -55,6 +65,9 @@ class GameModMenu:
                 game()
 
         def checkF():
+            """
+            проверка ответа
+            """
             if self.T == 0:
                 self.Explaining.delete(1.0, END)
                 self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")

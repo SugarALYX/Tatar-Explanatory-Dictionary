@@ -151,7 +151,4 @@ class MenuOfDictionary:
     def run(self):
         self.Menu.mainloop()
 
-    def iconic(self):
-        self.Menu.deiconify()
-
 
