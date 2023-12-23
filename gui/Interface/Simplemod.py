@@ -1,109 +1,87 @@
-from tkinter import Canvas, Entry, Text, Button, PhotoImage, END, messagebox, Tk
+import customtkinter as ctk
 from gui.Interface.WordFind import Explain
 
 
 class SimpleModMenu:
-    def __init__(self):
-        ASSETS_PATH = r"Interface/assets/frame1"
-        self.SimpleModWindow = Tk()
-        self.SimpleModWindow.geometry("1280x720")
-        self.SimpleModWindow.configure(bg="#514D4D")
+    def __init__(self, parent):
+        self.SimpleModWindow = ctk.CTkToplevel(parent)
+        self.SimpleModWindow.geometry("1920x1080")
+        self.SimpleModWindow.configure(bg="#504D4D")
         self.SimpleModWindow.title("Простой режим")
-        self.SimpleModWindow.resizable(False, False)
-
-        self.canv = Canvas(
-            self.SimpleModWindow,
-            bg="#514D4D",
-            height=720,
-            width=1280,
-            bd=0,
-            highlightthickness=0,
-            relief="ridge"
-        )
-        self.canv.place(x=0, y=0)
-        self.entry_image_1 = PhotoImage(
-            file=f"{ASSETS_PATH}/entry_1.png")
-        self.entry_bg_1 = self.canv.create_image(
-            642.0,
-            457.5,
-            image=self.entry_image_1
-        )
-        self.Explaining = Text(
-            self.SimpleModWindow,
-            font=("Inter SemiBold", 35 * -1),
-            bd=0,
-            bg="#6EB755",
-            fg="#000716",
-            highlightthickness=0,
-            wrap="word",
-        )
-        self.Explaining.place(
-            x=46.0,
-            y=222.0,
-            width=1192.0,
-            height=469.0
-        )
-
-        self.canv.create_rectangle(
-            26.0,
-            37.0,
-            667.0,
-            189.0,
-            fill="#6EB755",
-            outline="")
-
-        self.entry_image_2 = PhotoImage(
-            file=f"{ASSETS_PATH}/entry_2.png", )
-        self.entry_bg_2 = self.canv.create_image(
-            346.0,
-            113.5,
-            image=self.entry_image_2
-        )
-        self.YourWord = Entry(
-            self.SimpleModWindow,
-            font=("Inter SemiBold", 50 * -1),
-            justify="center",
-            bd=0,
-            bg="#6EB755",
-            fg="#000716",
-            highlightthickness=0
-        )
-        self.YourWord.place(
-            x=44.0,
-            y=45.0,
-            width=604.0,
-            height=135.0
-        )
+        self.SimpleModWindow.resizable(True, True)
+        self.SimpleModWindow.attributes("-fullscreen", True)
 
         def Find():
             """
             Функция нахождение слова
             """
-            self.Explaining.delete(1.0, END)
-            self.Explaining.insert(1.0, Explain(self.YourWord.get(), r"Interface/Words/"))
+            pass
+            self.Explaining.delete(1.0, ctk.END)
+            self.Explaining.insert(1.0, Explain(self.WordEntry.get(), r"Interface/Words/"))
 
-        self.button_image_1 = PhotoImage(
-            file=f"{ASSETS_PATH}/button_1.png")
-        self.FindButton = Button(
-            self.SimpleModWindow,
-            image=self.button_image_1,
-            borderwidth=0,
-            highlightthickness=0,
-            command=Find,
-            relief="flat"
-        )
-        self.FindButton.place(
-            x=690.0,
-            y=37.0,
-            width=551.6851196289062,
-            height=152.0
-        )
-
-        self.SimpleModWindow.protocol("WM_DELETE_WINDOW", self.on_closing)
-
-    def on_closing(self):
-        if messagebox.askokcancel("Выход", "Вы действительно хотите выйти?"):
+        def leave():
             self.SimpleModWindow.destroy()
 
-    def run(self):
-        self.SimpleModWindow.mainloop()
+        self.WordEntry = ctk.CTkEntry(
+            self.SimpleModWindow,
+            width=675,
+            height=109,
+            corner_radius=16,
+            justify="center",
+            fg_color="white",
+            text_color="black",
+            font=("Century Gothic", 30 * -1)
+        )
+        self.WordEntry.place(
+            x=69.0,
+            y=33.0
+        )
+
+        self.FindButton = ctk.CTkButton(
+            self.SimpleModWindow,
+            width=402,
+            height=74,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="Найти",
+            text_color="black",
+            command=Find
+        )
+        self.FindButton.place(
+            x=205.0,
+            y=178.0
+        )
+
+        self.Explaining = ctk.CTkTextbox(
+            self.SimpleModWindow,
+            width=1049,
+            height=1000,
+            corner_radius=16,
+            fg_color="#42C24B",
+            text_color="black",
+            font=("Inter SemiBold", 30 * -1),
+            wrap="word"
+        )
+        self.Explaining.place(
+            x=824.0,
+            y=33
+        )
+
+        self.LeaveButton = ctk.CTkButton(
+            self.SimpleModWindow,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            corner_radius=16,
+            font=("Century Gothic", 40 * -1),
+            text="Выход",
+            text_color="black",
+            command=leave,
+            width=675,
+            height=91
+        )
+        self.LeaveButton.place(
+            x=69,
+            y=920
+        )

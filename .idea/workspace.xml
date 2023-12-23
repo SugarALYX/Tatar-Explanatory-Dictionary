@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Доработка">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Последние доработки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/Interface/GameMod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/GameMod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/RandomMod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/RandomMod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/Interface/Simplemod.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Simplemod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/WordFind.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/Interface/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,15 +48,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="Gui-with-OOP" />
-                    <option name="lastUsedInstant" value="1702822326" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="Another-gui" />
-                    <option name="lastUsedInstant" value="1702748347" />
+                    <option name="lastUsedInstant" value="1703273234" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1702748346" />
+                    <option name="lastUsedInstant" value="1703273222" />
                   </RecentBranch>
                 </list>
               </option>
@@ -229,6 +222,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Simplemod" />
         <item itemvalue="Python.menu (1)" />
         <item itemvalue="Python.menu" />
         <item itemvalue="Python.GameMod" />

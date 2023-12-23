@@ -1,26 +1,19 @@
-from tkinter import Canvas, Text, Button, PhotoImage, Tk, messagebox, END
+import customtkinter as ctk
 import random
 from gui.Interface.WordFind import random_word_with_explain, random_word_random_explain, Explain
 
 
 class GameModMenu:
-    def __init__(self):
-        ASSETS_PATH = r"Interface/assets/frame2"
-        self.GameModWindow = Tk()
-        self.GameModWindow.geometry("1280x720")
-        self.GameModWindow.configure(bg="#514D4D")
+    def __init__(self, parent):
+        self.GameModWindow = ctk.CTkToplevel(parent)
+        self.GameModWindow.geometry("1920x1080")
+        self.GameModWindow.configure(bg="#504D4D")
         self.GameModWindow.title("Игровой режим")
-        self.GameModWindow.resizable(False, False)
+        self.GameModWindow.resizable(True, True)
+        self.GameModWindow.attributes("-fullscreen", True)
 
-        self.canvas = Canvas(
-            self.GameModWindow,
-            bg="#514D4D",
-            height=720,
-            width=1280,
-            bd=0,
-            highlightthickness=0,
-            relief="ridge"
-        )
+        def leave():
+            self.GameModWindow.destroy()
 
         def WordInText() -> str:
             """
@@ -29,7 +22,7 @@ class GameModMenu:
             """
             ReturnText = ""
             index = 0
-            text = self.Text_For_Description.get(1.0, END)
+            text = self.Text_For_Description.get(1.0, ctk.END)
             while text[index] != "-":
                 ReturnText += text[index]
                 index += 1
@@ -42,11 +35,11 @@ class GameModMenu:
             Функция игры(выводит в поле вопроса слово и определение)
             """
             if random.randint(1, 2) == 1:
-                self.Text_For_Description.delete(1.0, END)
+                self.Text_For_Description.delete(1.0, ctk.END)
                 self.Text_For_Description.insert(1.0, random_word_with_explain(r"Interface/Words/"))
                 self.T = 1
             else:
-                self.Text_For_Description.delete(1.0, END)
+                self.Text_For_Description.delete(1.0, ctk.END)
                 self.Text_For_Description.insert(1.0, random_word_random_explain(r"Interface/Words/"))
                 self.T = 0
 
@@ -55,12 +48,12 @@ class GameModMenu:
             Проверка ответа
             """
             if self.T == 1:
-                self.Explaining.delete(1.0, END)
+                self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
                 game()
             else:
-                self.Explaining.delete(1.0, END)
-                self.Explaining.delete(1.0, END)
+                self.Explaining.delete(1.0, ctk.END)
+                self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
                 game()
 
@@ -69,116 +62,101 @@ class GameModMenu:
             проверка ответа
             """
             if self.T == 0:
-                self.Explaining.delete(1.0, END)
+                self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
                 game()
 
             else:
-                self.Explaining.delete(1.0, END)
-                self.Explaining.delete(1.0, END)
+                self.Explaining.delete(1.0, ctk.END)
+                self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
                 game()
 
-        self.canvas.place(x=0, y=0)
-        self.button_image_1 = PhotoImage(
-            file=f"{ASSETS_PATH}/button_1.png")
-        self.F_Button = Button(
+        self.TButton = ctk.CTkButton(
             self.GameModWindow,
-            image=self.button_image_1,
-            borderwidth=0,
-            highlightthickness=0,
-            command=checkF,
-            relief="flat"
-        )
-
-        self.F_Button.place(
-            x=19.0,
-            y=533.0,
-            width=350.0,
-            height=82.0
-        )
-
-        self.button_image_2 = PhotoImage(
-            file=f"{ASSETS_PATH}/button_2.png")
-        self.T_Button = Button(
-            self.GameModWindow,
-            image=self.button_image_2,
-            borderwidth=0,
-            highlightthickness=0,
+            fg_color="green",
+            hover_color="#0AE617",
+            corner_radius=16,
+            font=("Century Gothic", 40 * -1),
+            text="Истина",
+            text_color="black",
             command=checkT,
-            relief="flat"
+            width=316,
+            height=120
         )
-
-        self.T_Button.place(
-            x=911.0,
-            y=533.0,
-            width=350.0,
-            height=82.0
+        self.TButton.place(
+            x=417.0,
+            y=697.0
         )
-        self.entry_image_2 = PhotoImage(
-            file=f"{ASSETS_PATH}/entry_2.png")
-        self.entry_bg_2 = self.canvas.create_image(
-            645,
-            215,
-            image=self.entry_image_2
-        )
-
-        self.Text_For_Description = Text(
+        self.FButton = ctk.CTkButton(
             self.GameModWindow,
-            font=("Inter SemiBold", 25 * -1),
-            bd=0,
-            bg="#6EB755",
-            fg="#000716",
-            highlightthickness=0,
+            fg_color="#CC3343",
+            hover_color="#E71321",
+            corner_radius=16,
+            font=("Century Gothic", 40 * -1),
+            text="Ложь",
+            text_color="black",
+            command=checkF,
+            width=316,
+            height=120
+        )
+        self.FButton.place(
+            x=58.0,
+            y=697.0
+        )
+
+        self.Explaining = ctk.CTkTextbox(
+            self.GameModWindow,
+            width=675,
+            height=567,
+            corner_radius=16,
+            fg_color="#42C24B",
+            text_color="black",
+            font=("Inter SemiBold", 30 * -1),
             wrap="word"
         )
-
-        self.Text_For_Description.place(
-            x=39.0,
-            y=8.0,
-            width=1202.0,
-            height=416.0
-        )
-
-        self.entry_image_3 = PhotoImage(
-            file=f"{ASSETS_PATH}/entry_3.png")
-        self.entry_bg_3 = self.canvas.create_image(
-            640.5,
-            580.0,
-            image=self.entry_image_3
-        )
-
-        self.Explaining = Text(
-            self.GameModWindow,
-            font=("Inter SemiBold", 20 * -1),
-            bd=0,
-            bg="#FFFFFF",
-            fg="#000716",
-            highlightthickness=0,
-            wrap="word"
-        )
-
         self.Explaining.place(
-            x=465.0,
-            y=460.0,
-            width=351.0,
-            height=238.0
+            x=58,
+            y=33
         )
 
-        self.GameModWindow.protocol("WM_DELETE_WINDOW", self.on_closing)
+        self.Text_For_Description = ctk.CTkTextbox(
+            self.GameModWindow,
+            width=1049,
+            height=1000,
+            corner_radius=16,
+            fg_color="#42C24B",
+            text_color="black",
+            font=("Inter SemiBold", 30 * -1),
+            wrap="word"
+        )
+        self.Text_For_Description.place(
+            x=824.0,
+            y=33
+        )
+
+        self.LeaveButton = ctk.CTkButton(
+            self.GameModWindow,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            corner_radius=16,
+            font=("Century Gothic", 40 * -1),
+            text="Выход",
+            text_color="black",
+            command=leave,
+            width=675,
+            height=91
+        )
+        self.LeaveButton.place(
+            x=58,
+            y=914
+        )
 
         if random.randint(1, 2) == 1:
-            self.Text_For_Description.delete(1.0, END)
+            self.Text_For_Description.delete(1.0, ctk.END)
             self.Text_For_Description.insert(1.0, random_word_with_explain(r"Interface/Words/"))
             self.T = 1
         else:
-            self.Text_For_Description.delete(1.0, END)
+            self.Text_For_Description.delete(1.0, ctk.END)
             self.Text_For_Description.insert(1.0, random_word_random_explain(r"Interface/Words/"))
             self.T = 0
-
-    def run(self):
-        self.GameModWindow.mainloop()
-
-    def on_closing(self):
-        if messagebox.askokcancel("Выход", "Вы действительно хотите выйти?"):
-            self.GameModWindow.destroy()
