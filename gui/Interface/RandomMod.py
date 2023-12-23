@@ -1,98 +1,87 @@
-from tkinter import Canvas, Text, Button, PhotoImage, END, Tk, messagebox
+import customtkinter as ctk
 from gui.Interface.WordFind import random_word_with_explain
 
 
 class RandomModMenu:
-    def __init__(self):
-        ASSETS_PATH = r"Interface/assets/frame1"
-        self.RandomModWindow = Tk()
-        self.RandomModWindow.geometry("1280x720")
-        self.RandomModWindow.configure(bg="#514D4D")
-        self.RandomModWindow.title("Режим Случайности")
-        self.RandomModWindow.resizable(False, False)
-
-        self.canv = Canvas(
-            self.RandomModWindow,
-            bg="#514D4D",
-            height=720,
-            width=1280,
-            bd=0,
-            highlightthickness=0,
-            relief="ridge"
-        )
-
-        self.canv.place(x=0, y=0)
-        self.entry_image_1 = PhotoImage(
-            file=f"{ASSETS_PATH}/entry_1.png")
-        self.entry_bg_1 = self.canv.create_image(
-            642.0,
-            457.5,
-            image=self.entry_image_1
-        )
-        self.Explaining = Text(
-            self.RandomModWindow,
-            font=("Inter SemiBold", 35 * -1),
-            bd=0,
-            bg="#6EB755",
-            fg="#000716",
-            highlightthickness=0,
-            wrap="word",
-        )
-
-        self.Explaining.place(
-            x=46.0,
-            y=222.0,
-            width=1192.0,
-            height=469.0
-        )
-
-        (
-            self.canv.create_rectangle(
-                26.0,
-                37.0,
-                667.0,
-                189.0,
-                fill="#6EB755",
-                outline="")
-        )
-
-        self.canv.create_text(
-            339.0,
-            113.0,
-            font=("Inter SemiBold", 50 * -1),
-            text="Случайное слово",
-        )
-
-        self.button_image_1 = PhotoImage(
-            file=f"{ASSETS_PATH}/button_1.png")
+    def __init__(self, parent):
+        self.RandomModWindow = ctk.CTkToplevel(parent)
+        self.RandomModWindow.geometry("1920x1080")
+        self.RandomModWindow.configure(bg="#504D4D")
+        self.RandomModWindow.title("Режим случайного слова")
+        self.RandomModWindow.resizable(True, True)
+        self.RandomModWindow.attributes("-fullscreen", True)
 
         def Random():
             """
             Функция нахождения случайного слова с определение(которое принадлежит этому слову)
             """
-            self.Explaining.delete(1.0, END)
+            self.Explaining.delete(1.0, ctk.END)
             self.Explaining.insert(1.0, random_word_with_explain(r"Interface/Words/"))
 
-        self.FindButton = Button(
-            self.RandomModWindow,
-            image=self.button_image_1,
-            borderwidth=0,
-            highlightthickness=0,
-            command=Random,
-            relief="flat"
-        )
-        self.FindButton.place(
-            x=706.0,
-            y=37.0,
-            width=551.6851196289062,
-            height=152.0
-        )
-
-        self.RandomModWindow.protocol("WM_DELETE_WINDOW", self.on_closing)
-
-    def on_closing(self):
-        if messagebox.askokcancel("Выход", "Вы действительно хотите выйти?"):
+        def leave():
             self.RandomModWindow.destroy()
 
-    def run(self):
-        self.RandomModWindow.mainloop()
+        self.WordEntry = ctk.CTkLabel(
+            self.RandomModWindow,
+            width=675,
+            height=109,
+            corner_radius=16,
+            justify="center",
+            fg_color="white",
+            text_color="black",
+            font=("Century Gothic", 30 * -1),
+            text="Случайное слово"
+        )
+        self.WordEntry.place(
+            x=69.0,
+            y=33.0
+        )
+
+        self.FindButton = ctk.CTkButton(
+            self.RandomModWindow,
+            width=402,
+            height=74,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="Найти",
+            text_color="black",
+            command=Random
+        )
+        self.FindButton.place(
+            x=205.0,
+            y=178.0
+        )
+
+        self.Explaining = ctk.CTkTextbox(
+            self.RandomModWindow,
+            width=1049,
+            height=1000,
+            corner_radius=16,
+            fg_color="#42C24B",
+            text_color="black",
+            font=("Inter SemiBold", 30 * -1),
+            wrap="word"
+        )
+        self.Explaining.place(
+            x=824.0,
+            y=33
+        )
+
+        self.LeaveButton = ctk.CTkButton(
+            self.RandomModWindow,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            corner_radius=16,
+            font=("Century Gothic", 40 * -1),
+            text="Выход",
+            text_color="black",
+            command=leave,
+            width=675,
+            height=91
+        )
+        self.LeaveButton.place(
+            x=69,
+            y=920
+        )
