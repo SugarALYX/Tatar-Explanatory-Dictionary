@@ -243,6 +243,24 @@ class SimpleModMenu:
             self.Explaining.delete(1.0, ctk.END)
             self.Explaining.insert(1.0, Explain(self.WordEntry.get(), r"Assets/Words/"))
 
+        def Word1():
+            self.WordEntry.insert(len(self.WordEntry.get()), "ә")
+
+        def Word2():
+            self.WordEntry.insert(len(self.WordEntry.get()), "җ")
+
+        def Word3():
+            self.WordEntry.insert(len(self.WordEntry.get()), "ң")
+
+        def Word4():
+            self.WordEntry.insert(len(self.WordEntry.get()), "ө")
+
+        def Word5():
+            self.WordEntry.insert(len(self.WordEntry.get()), "ү")
+
+        def Word6():
+            self.WordEntry.insert(len(self.WordEntry.get()), "һ")
+
         def leave():
             menu = MenuOfDictionary()
             menu.dei()
@@ -256,7 +274,8 @@ class SimpleModMenu:
             justify="center",
             fg_color="white",
             text_color="black",
-            font=("Inter SemiBold", 30 * -1)
+            font=("Inter SemiBold", 30 * -1),
+            placeholder_text="Введите слово"
         )
         self.WordEntry.place(
             x=69.0,
@@ -277,7 +296,109 @@ class SimpleModMenu:
         )
         self.FindButton.place(
             x=205.0,
-            y=178.0
+            y=303.0
+        )
+
+        self.W1Button = ctk.CTkButton(
+            self.SimpleModWindow,
+            width=78,
+            height=75,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="ә",
+            text_color="black",
+            command=Word1
+        )
+        self.W1Button.place(
+            x=69.0,
+            y=185.0
+        )
+
+        self.W2Button = ctk.CTkButton(
+            self.SimpleModWindow,
+            width=78,
+            height=75,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="җ",
+            text_color="black",
+            command=Word2
+        )
+        self.W2Button.place(
+            x=187.0,
+            y=185.0
+        )
+
+        self.W3Button = ctk.CTkButton(
+            self.SimpleModWindow,
+            width=78,
+            height=75,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="ң",
+            text_color="black",
+            command=Word3
+        )
+        self.W3Button.place(
+            x=306.0,
+            y=185.0
+        )
+
+        self.W4Button = ctk.CTkButton(
+            self.SimpleModWindow,
+            width=78,
+            height=75,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="ө",
+            text_color="black",
+            command=Word4
+        )
+        self.W4Button.place(
+            x=426.0,
+            y=185.0
+        )
+
+        self.W5Button = ctk.CTkButton(
+            self.SimpleModWindow,
+            width=78,
+            height=75,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="ү",
+            text_color="black",
+            command=Word5
+        )
+        self.W5Button.place(
+            x=546.0,
+            y=185.0
+        )
+
+        self.W6Button = ctk.CTkButton(
+            self.SimpleModWindow,
+            width=78,
+            height=75,
+            corner_radius=20,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            font=("Century Gothic", 35 * -1),
+            text="һ",
+            text_color="black",
+            command=Word6
+        )
+        self.W6Button.place(
+            x=666.0,
+            y=185.0
         )
 
         self.Explaining = ctk.CTkTextbox(

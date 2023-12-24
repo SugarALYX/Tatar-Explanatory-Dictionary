@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Собрал всё в один файл Menu.py">
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Маленькие исправления">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" afterDir="false" />
     </list>
@@ -521,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703416567275</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Маленькие исправления">
+      <option name="closed" value="true" />
+      <created>1703418957533</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1703418957534</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,6 +574,7 @@
     <MESSAGE value="Доработан игровой режим" />
     <MESSAGE value="Доработка" />
     <MESSAGE value="Собрал всё в один файл Menu.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Собрал всё в один файл Menu.py" />
+    <MESSAGE value="Маленькие исправления" />
+    <option name="LAST_COMMIT_MESSAGE" value="Маленькие исправления" />
   </component>
 </project>
