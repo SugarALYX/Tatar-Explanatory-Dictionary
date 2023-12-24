@@ -1,6 +1,6 @@
 import customtkinter as ctk
 import random
-from gui.Interface.WordFind import random_word_with_explain, Explain, random_word_random_explain
+from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain
 
 
 class MenuOfDictionary:
@@ -25,7 +25,7 @@ class MenuOfDictionary:
             self.Menu.withdraw()
 
         def leave():
-            self.Menu.destroy()
+            self.Menu.quit()
 
         self.MenuSimpleModButton = ctk.CTkButton(
             self.Menu,
@@ -472,3 +472,9 @@ class GameModMenu:
             self.Text_For_Description.delete(1.0, ctk.END)
             self.Text_For_Description.insert(1.0, random_word_random_explain(r"Interface/Words/"))
             self.T = 0
+
+
+if __name__ == '__main__':
+    main = MenuOfDictionary()
+    main.run()
+

@@ -4,15 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Последние доработки">
-      <change beforePath="$PROJECT_DIR$/.idea/Tatar-Explanatory-Dictionary.iml" beforeDir="false" />
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Собрал всё в один файл Menu.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/GameMod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/RandomMod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Simplemod.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Interface/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/WordFind.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/A`a`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/A`a`.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Aa.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Bb.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Chch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Chch.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Dd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Dd.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ee.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ff.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Gg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Gg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/H`h`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/H`h`.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Hh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Hh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ii.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ii.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Jaja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Jaja.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Jeje.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Jeje.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Jj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Jj.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Juju.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Juju.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Kk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Kk.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ll.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Mm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Mm.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Nn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Nn.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/O`o`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/O`o`.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Oo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Oo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Pp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Pp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Rr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Rr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Shsh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Shsh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ss.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ss.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Tt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Tt.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/U`u`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/U`u`.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Uu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Uu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Vv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Vv.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Yy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Yy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Zhzh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Zhzh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Zz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Zz.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Interface/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,56 +140,14 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\Interface" />
+      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\Assets" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui" />
+      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\Interface" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\gui\assets" />
-      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Main">
-    <configuration name="GameMod" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Tatar-Explanatory-Dictionary" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\Interface\GameMod.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Tatar-Explanatory-Dictionary" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/Main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tatar-Explanatory-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,6 +190,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Tatar-Explanatory-Dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tatar-Explanatory-Dictionary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui/Interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\Tatar-Explanatory-Dictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TatarExplanatoryDictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tatar-Explanatory-Dictionary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\TatarExplanatoryDictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TatarExplanatoryDictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tatar-Explanatory-Dictionary" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\TatarExplanatoryDictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Tatar-Explanatory-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Main" />
+        <item itemvalue="Python.TatarExplanatoryDictionary" />
+        <item itemvalue="Python.Tatar-Explanatory-Dictionary (1)" />
+        <item itemvalue="Python.TatarExplanatoryDictionary" />
         <item itemvalue="Python.Simplemod" />
         <item itemvalue="Python.Menu" />
-        <item itemvalue="Python.menu" />
-        <item itemvalue="Python.GameMod" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703184085979</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Собрал всё в один файл Menu.py">
+      <option name="closed" value="true" />
+      <created>1703414950887</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1703414950887</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -526,6 +585,7 @@
     <MESSAGE value="Работа над GameMod.py" />
     <MESSAGE value="Доработан игровой режим" />
     <MESSAGE value="Доработка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доработка" />
+    <MESSAGE value="Собрал всё в один файл Menu.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Собрал всё в один файл Menu.py" />
   </component>
 </project>
