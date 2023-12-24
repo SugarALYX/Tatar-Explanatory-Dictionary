@@ -3,6 +3,8 @@ import random
 from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain
 
 
+# TODO:Сделайть функцию добавления слов в словарь
+
 class MenuOfDictionary:
     def __init__(self):
         self.Menu = ctk.CTk()
@@ -56,7 +58,6 @@ class MenuOfDictionary:
             width=756,
             height=173,
         )
-
         self.RandomModButton.place(
             x=43.0,
             y=439.0,
@@ -119,13 +120,12 @@ class MenuOfDictionary:
             justify="left",
             text='Простой режим: вы вводите слово, программа \nнаходит этому слову определение\n\nСлучайный режим: вы '
                  'нажимаете на кнопку и\nполучаете случайное слово с определением\n\nИгровой режим: вам даётся '
-                 'случайное\n слово и '
-                 'случайное определение, вы должны\n ответить, правильно ли подобрано определение\n\n'
+                 'случайное\nслово и '
+                 'случайное определение, вы должны\nответить, правильно ли подобрано определение\n\n'
                  'Автор: Шайхутдинов Абу Бакр Ильгамович,\nученик 10 класса МБОУ "Нурминская СОШ"',
             text_color="black",
             width=1049,
             height=812
-
         )
         self.TheDescription.place(
             x=824.0,
@@ -256,7 +256,7 @@ class SimpleModMenu:
             justify="center",
             fg_color="white",
             text_color="black",
-            font=("Century Gothic", 30 * -1)
+            font=("Inter SemiBold", 30 * -1)
         )
         self.WordEntry.place(
             x=69.0,
@@ -400,6 +400,7 @@ class GameModMenu:
             x=417.0,
             y=697.0
         )
+
         self.FButton = ctk.CTkButton(
             self.GameModWindow,
             fg_color="#CC3343",
@@ -477,4 +478,3 @@ class GameModMenu:
 if __name__ == '__main__':
     main = MenuOfDictionary()
     main.run()
-
