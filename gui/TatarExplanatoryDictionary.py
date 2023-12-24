@@ -153,7 +153,7 @@ class RandomModMenu:
             Функция нахождения случайного слова с определение(которое принадлежит этому слову)
             """
             self.Explaining.delete(1.0, ctk.END)
-            self.Explaining.insert(1.0, random_word_with_explain(r"Interface/Words/"))
+            self.Explaining.insert(1.0, random_word_with_explain(r"Assets/Words/"))
 
         def leave():
             menu = MenuOfDictionary()
@@ -241,7 +241,7 @@ class SimpleModMenu:
             """
             pass
             self.Explaining.delete(1.0, ctk.END)
-            self.Explaining.insert(1.0, Explain(self.WordEntry.get(), r"Interface/Words/"))
+            self.Explaining.insert(1.0, Explain(self.WordEntry.get(), r"Assets/Words/"))
 
         def leave():
             menu = MenuOfDictionary()
@@ -348,11 +348,11 @@ class GameModMenu:
             """
             if random.randint(1, 2) == 1:
                 self.Text_For_Description.delete(1.0, ctk.END)
-                self.Text_For_Description.insert(1.0, random_word_with_explain(r"Interface/Words/"))
+                self.Text_For_Description.insert(1.0, random_word_with_explain(r"Assets/Words/"))
                 self.T = 1
             else:
                 self.Text_For_Description.delete(1.0, ctk.END)
-                self.Text_For_Description.insert(1.0, random_word_random_explain(r"Interface/Words/"))
+                self.Text_For_Description.insert(1.0, random_word_random_explain(r"Assets/Words/"))
                 self.T = 0
 
         def checkT():
@@ -361,12 +361,12 @@ class GameModMenu:
             """
             if self.T == 1:
                 self.Explaining.delete(1.0, ctk.END)
-                self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
+                self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
                 game()
             else:
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.delete(1.0, ctk.END)
-                self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
+                self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
                 game()
 
         def checkF():
@@ -375,13 +375,13 @@ class GameModMenu:
             """
             if self.T == 0:
                 self.Explaining.delete(1.0, ctk.END)
-                self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
+                self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
                 game()
 
             else:
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.delete(1.0, ctk.END)
-                self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Interface/Words/")}")
+                self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
                 game()
 
         self.TButton = ctk.CTkButton(
@@ -466,11 +466,11 @@ class GameModMenu:
 
         if random.randint(1, 2) == 1:
             self.Text_For_Description.delete(1.0, ctk.END)
-            self.Text_For_Description.insert(1.0, random_word_with_explain(r"Interface/Words/"))
+            self.Text_For_Description.insert(1.0, random_word_with_explain(r"Assets/Words/"))
             self.T = 1
         else:
             self.Text_For_Description.delete(1.0, ctk.END)
-            self.Text_For_Description.insert(1.0, random_word_random_explain(r"Interface/Words/"))
+            self.Text_For_Description.insert(1.0, random_word_random_explain(r"Assets/Words/"))
             self.T = 0
 
 

@@ -4,46 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Собрал всё в один файл Menu.py">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/WordFind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/A`a`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/A`a`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Aa.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Bb.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Bb.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Chch.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Chch.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Dd.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Dd.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ee.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ee.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ff.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ff.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Gg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Gg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/H`h`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/H`h`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Hh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Hh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ii.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ii.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Jaja.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Jaja.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Jeje.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Jeje.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Jj.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Jj.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Juju.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Juju.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Kk.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Kk.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ll.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ll.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Mm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Mm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Nn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Nn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/O`o`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/O`o`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Oo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Oo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Pp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Pp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Rr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Rr.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Shsh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Shsh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Ss.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Ss.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Tt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Tt.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/U`u`.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/U`u`.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Uu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Uu.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Vv.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Vv.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Yy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Yy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Zhzh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Zhzh.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/Zz.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/Zz.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/Words/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/Words/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Interface/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Main.py" beforeDir="false" />
-    </list>
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Собрал всё в один файл Menu.py" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -541,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703414950887</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Собрал всё в один файл Menu.py">
+      <option name="closed" value="true" />
+      <created>1703416203694</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1703416203694</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
