@@ -443,6 +443,9 @@ class GameModMenu:
         self.GameModWindow.resizable(True, True)
         self.GameModWindow.attributes("-fullscreen", True)
 
+        self.Tcount = 0
+        self.Fcount = 0
+
         def leave():
             menu = MenuOfDictionary()
             menu.dei()
@@ -483,11 +486,19 @@ class GameModMenu:
             if self.T == 1:
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
+                self.Explaining.configure(fg_color="#42C24B")
+                self.Tcount += 1
+                self.Tcounter.delete(1.0, ctk.END)
+                self.Tcounter.insert(1.0, self.Tcount)
                 game()
             else:
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
+                self.Explaining.configure(fg_color="red")
+                self.Fcount += 1
+                self.Fcounter.delete(1.0, ctk.END)
+                self.Fcounter.insert(1.0, self.Fcount)
                 game()
 
         def checkF():
@@ -497,12 +508,20 @@ class GameModMenu:
             if self.T == 0:
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Правильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
+                self.Explaining.configure(fg_color="#42C24B")
+                self.Tcount += 1
+                self.Tcounter.delete(1.0, ctk.END)
+                self.Tcounter.insert(1.0, self.Tcount)
                 game()
 
             else:
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.delete(1.0, ctk.END)
                 self.Explaining.insert(1.0, f"Неправильный ответ!\n{Explain(WordInText(), "Assets/Words/")}")
+                self.Explaining.configure(fg_color="red")
+                self.Fcount += 1
+                self.Fcounter.delete(1.0, ctk.END)
+                self.Fcounter.insert(1.0, self.Fcount)
                 game()
 
         self.TButton = ctk.CTkButton(
@@ -519,7 +538,7 @@ class GameModMenu:
         )
         self.TButton.place(
             x=417.0,
-            y=697.0
+            y=646.0
         )
 
         self.FButton = ctk.CTkButton(
@@ -536,7 +555,7 @@ class GameModMenu:
         )
         self.FButton.place(
             x=58.0,
-            y=697.0
+            y=646.0
         )
 
         self.Explaining = ctk.CTkTextbox(
@@ -544,9 +563,9 @@ class GameModMenu:
             width=675,
             height=567,
             corner_radius=16,
-            fg_color="#42C24B",
+            fg_color="white",
             text_color="black",
-            font=("Inter SemiBold", 30 * -1),
+            font=("Inter SemiBold", 25 * -1),
             wrap="word"
         )
         self.Explaining.place(
@@ -585,6 +604,36 @@ class GameModMenu:
             x=58,
             y=914
         )
+
+        self.Fcounter = ctk.CTkTextbox(
+            self.GameModWindow,
+            fg_color="#CC3343",
+            corner_radius=16,
+            font=("Century Gothic", 40 * -1),
+            text_color="black",
+            width=316,
+            height=91
+        )
+        self.Fcounter.place(
+            x=58.0,
+            y=811.0
+        )
+        self.Fcounter.insert(1.0, self.Fcount)
+
+        self.Tcounter = ctk.CTkTextbox(
+            self.GameModWindow,
+            fg_color="#42C24B",
+            corner_radius=16,
+            font=("Century Gothic", 40 * -1),
+            text_color="black",
+            width=308,
+            height=93
+        )
+        self.Tcounter.place(
+            x=428.0,
+            y=811.0
+        )
+        self.Tcounter.insert(1.0, self.Tcount)
 
         if random.randint(1, 2) == 1:
             self.Text_For_Description.delete(1.0, ctk.END)
