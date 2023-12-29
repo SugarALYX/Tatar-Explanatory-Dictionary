@@ -84,13 +84,19 @@ def Explain(Your_word: str, way: str) -> str:
         return "Слово не найдено"
 
 
-def WordAdd(New_word: str):
+def WordAdd(New_word: str, Explaining: str, way: str):
     """
     Функция для добавления слов в словарь
+    :param Explaining: лексическое значение(определение)
+    :param way: путь
     :param New_word: Новое слово
     :return: Записывает новое слово для дальнейшего использования
     """
-    pass
+    New_word = New_word.capitalize()
+    f = open(path(New_word, way), "r", encoding="utf-8")
+    text = f.read()
+    f = open(path(New_word, way), "w", encoding="utf-8")
+    f.write(f"{New_word} -{Explaining}\n\n\n\n\n{text}")
 
 
 def random_word_with_explain(way: str) -> str:

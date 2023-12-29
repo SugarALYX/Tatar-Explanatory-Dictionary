@@ -2,8 +2,8 @@ import customtkinter as ctk
 import random
 from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain
 
+# TODO:Сдедать функцию перевода на татарский
 
-# TODO:Сделайть функцию добавления слов в словарь
 
 class MenuOfDictionary:
     def __init__(self):
@@ -13,6 +13,10 @@ class MenuOfDictionary:
         self.Menu.configure(bg="#504D4D")
         self.Menu.resizable(True, True)
         self.Menu.attributes("-fullscreen", True)
+
+        def CreatAdditionWindow():
+            Addition(self.Menu)
+            self.Menu.withdraw()
 
         def CreatSimpleModWindow():
             SimpleModMenu(self.Menu)
@@ -43,7 +47,7 @@ class MenuOfDictionary:
         )
         self.MenuSimpleModButton.place(
             x=43.0,
-            y=226.0
+            y=28.0
         )
 
         self.RandomModButton = ctk.CTkButton(
@@ -60,7 +64,7 @@ class MenuOfDictionary:
         )
         self.RandomModButton.place(
             x=43.0,
-            y=439.0,
+            y=236.0,
         )
 
         self.GameModButton = ctk.CTkButton(
@@ -77,7 +81,7 @@ class MenuOfDictionary:
         )
         self.GameModButton.place(
             x=43.0,
-            y=652.0,
+            y=453.0,
         )
 
         self.LeaveButton = ctk.CTkButton(
@@ -94,7 +98,24 @@ class MenuOfDictionary:
         )
         self.LeaveButton.place(
             x=43.0,
-            y=865.0,
+            y=868.0,
+        )
+
+        self.AdditionButton = ctk.CTkButton(
+            self.Menu,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            corner_radius=16,
+            font=("Century Gothic", 60 * -1),
+            text="Дополнительно",
+            text_color="black",
+            command=CreatAdditionWindow,
+            width=756,
+            height=173
+        )
+        self.AdditionButton.place(
+            x=43.0,
+            y=660.0
         )
 
         self.TheTitle = ctk.CTkLabel(
@@ -104,12 +125,12 @@ class MenuOfDictionary:
             font=("Century Gothic", 60 * -1),
             text="Татарский толковый словарь",
             text_color="black",
-            width=1298,
-            height=138
+            width=1049,
+            height=173
         )
         self.TheTitle.place(
-            x=331.0,
-            y=48.0
+            x=824.0,
+            y=28.0
         )
 
         self.TheDescription = ctk.CTkLabel(
@@ -125,11 +146,11 @@ class MenuOfDictionary:
                  'Автор: Шайхутдинов Абу Бакр Ильгамович,\nученик 10 класса МБОУ "Нурминская СОШ"',
             text_color="black",
             width=1049,
-            height=812
+            height=802
         )
         self.TheDescription.place(
             x=824.0,
-            y=226.0
+            y=236.0
         )
 
     def run(self):
@@ -643,6 +664,16 @@ class GameModMenu:
             self.Text_For_Description.delete(1.0, ctk.END)
             self.Text_For_Description.insert(1.0, random_word_random_explain(r"Assets/Words/"))
             self.T = 0
+
+
+class Addition:
+    def __init__(self, parent):
+        self.AdditionWindow = ctk.CTkToplevel(parent)
+        self.AdditionWindow.geometry("1920x1080")
+        self.AdditionWindow.configure(bg="#504D4D")
+        self.AdditionWindow.title("Игровой режим")
+        self.AdditionWindow.resizable(True, True)
+        self.AdditionWindow.attributes("-fullscreen", True)
 
 
 if __name__ == '__main__':
