@@ -81,7 +81,7 @@ class MenuOfDictionary:
         )
         self.GameModButton.place(
             x=43.0,
-            y=453.0,
+            y=444.0,
         )
 
         self.LeaveButton = ctk.CTkButton(
@@ -98,7 +98,7 @@ class MenuOfDictionary:
         )
         self.LeaveButton.place(
             x=43.0,
-            y=868.0,
+            y=860.0,
         )
 
         self.AdditionButton = ctk.CTkButton(
@@ -115,7 +115,7 @@ class MenuOfDictionary:
         )
         self.AdditionButton.place(
             x=43.0,
-            y=660.0
+            y=652.0
         )
 
         self.TheTitle = ctk.CTkLabel(
@@ -139,14 +139,14 @@ class MenuOfDictionary:
             corner_radius=16,
             font=("Century Gothic", 40 * -1),
             justify="left",
-            text='Простой режим: вы вводите слово, программа \nнаходит этому слову определение\n\nСлучайный режим: вы '
+            text='Обычный режим: вы вводите слово, программа \nнаходит этому слову определение\n\nСлучайный режим: вы '
                  'нажимаете на кнопку и\nполучаете случайное слово с определением\n\nИгровой режим: вам даётся '
                  'случайное\nслово и '
                  'случайное определение, вы должны\nответить, правильно ли подобрано определение\n\n'
                  'Автор: Шайхутдинов Абу Бакр Ильгамович,\nученик 10 класса МБОУ "Нурминская СОШ"',
             text_color="black",
             width=1049,
-            height=802
+            height=797
         )
         self.TheDescription.place(
             x=824.0,

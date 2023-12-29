@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Прокачка игрового режима">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Создал функцию добавления слов, начал создовать новое окно для реализации функции">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Assets/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/WordFind.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -547,7 +545,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703855758526</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Создал функцию добавления слов, начал создовать новое окно для реализации функции">
+      <option name="closed" value="true" />
+      <created>1703875486715</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1703875486715</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -595,6 +601,7 @@
     <MESSAGE value="Маленькие исправления" />
     <MESSAGE value="Доработка SimplemodMenu(добавил маленькую клавиатуру с татарскими буквами)" />
     <MESSAGE value="Прокачка игрового режима" />
-    <option name="LAST_COMMIT_MESSAGE" value="Прокачка игрового режима" />
+    <MESSAGE value="Создал функцию добавления слов, начал создовать новое окно для реализации функции" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал функцию добавления слов, начал создовать новое окно для реализации функции" />
   </component>
 </project>
