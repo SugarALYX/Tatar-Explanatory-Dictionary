@@ -2,8 +2,6 @@ import customtkinter as ctk
 import random
 from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain, WordAdd
 
-# TODO:Сдедать функцию перевода на татарский
-
 
 class MenuOfDictionary:
     def __init__(self):
@@ -243,7 +241,7 @@ class RandomModMenu:
         )
         self.LeaveButton.place(
             x=69,
-            y=920
+            y=942
         )
 
 
@@ -451,7 +449,7 @@ class SimpleModMenu:
         )
         self.LeaveButton.place(
             x=69,
-            y=920
+            y=942
         )
 
 
@@ -623,7 +621,7 @@ class GameModMenu:
         )
         self.LeaveButton.place(
             x=58,
-            y=914
+            y=942
         )
 
         self.Fcounter = ctk.CTkTextbox(
