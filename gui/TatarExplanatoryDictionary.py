@@ -742,6 +742,37 @@ class Addition:
             y=28.0
         )
 
+        self.WordEntry = ctk.CTkEntry(
+            self.AdditionWindow,
+            width=553,
+            height=180,
+            corner_radius=16,
+            justify="center",
+            fg_color="white",
+            text_color="black",
+            font=("Inter SemiBold", 30 * -1),
+            placeholder_text="Введите слово"
+        )
+        self.WordEntry.place(
+            x=38.0,
+            y=579.0
+        )
+
+        self.ExplainEntry = ctk.CTkEntry(
+            self.AdditionWindow,
+            width=1191,
+            height=723,
+            corner_radius=16,
+            justify="center",
+            fg_color="white",
+            text_color="black",
+            font=("Inter SemiBold", 30 * -1),
+            placeholder_text="Введите определение(при удалении не обязательно)"
+        )
+        self.ExplainEntry.place(
+            x=686.0,
+            y=302.0
+        )
 
 
 if __name__ == '__main__':
