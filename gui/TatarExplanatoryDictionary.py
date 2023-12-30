@@ -1,10 +1,8 @@
 import customtkinter as ctk
 import random
-from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain
-import ctypes
+from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain, WordAdd
 
 # TODO:Сдедать функцию перевода на татарский
-ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
 
 class MenuOfDictionary:
@@ -683,7 +681,8 @@ class Addition:
             self.AdditionWindow.destroy()
 
         def operation():
-            pass
+            if "Добавить" == self.Control.get():
+                WordAdd(self.WordEntry.get(), self.ExplainEntry.get(), "Assets/Words/")
 
         self.LeaveButton = ctk.CTkButton(
             self.AdditionWindow,
