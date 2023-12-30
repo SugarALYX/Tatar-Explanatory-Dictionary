@@ -1,8 +1,10 @@
 import customtkinter as ctk
 import random
 from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain
+import ctypes
 
 # TODO:Сдедать функцию перевода на татарский
+ctypes.windll.shcore.SetProcessDpiAwareness(1)
 
 
 class MenuOfDictionary:
@@ -674,6 +676,72 @@ class Addition:
         self.AdditionWindow.title("Игровой режим")
         self.AdditionWindow.resizable(True, True)
         self.AdditionWindow.attributes("-fullscreen", True)
+
+        def leave():
+            menu = MenuOfDictionary()
+            menu.dei()
+            self.AdditionWindow.destroy()
+
+        def operation():
+            pass
+
+        self.LeaveButton = ctk.CTkButton(
+            self.AdditionWindow,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            corner_radius=16,
+            font=("Century Gothic", 60 * -1),
+            text="Выход",
+            text_color="black",
+            command=leave,
+            width=548,
+            height=173
+        )
+        self.LeaveButton.place(
+            x=1329.0,
+            y=28.0,
+        )
+
+        self.OperationButton = ctk.CTkButton(
+            self.AdditionWindow,
+            fg_color="#42C24B",
+            hover_color="#0AE617",
+            corner_radius=16,
+            font=("Century Gothic", 35 * -1),
+            text="Совершить операцию",
+            text_color="black",
+            command=operation,
+            width=548,
+            height=173
+        )
+        self.OperationButton.place(
+            x=686.0,
+            y=28.0,
+        )
+
+        self.Control = ctk.CTkComboBox(
+            self.AdditionWindow,
+            values=["Добавить", "Изменить", "Удалить"],
+            fg_color="#42C24B",
+            corner_radius=16,
+            font=("Century Gothic", 60 * -1),
+            text_color="black",
+            hover=True,
+            dropdown_fg_color="#42C24B",
+            button_hover_color="green",
+            dropdown_hover_color="green",
+            justify="center",
+            border_color="#42C24B",
+            dropdown_font=("Century Gothic", 60 * -1),
+            dropdown_text_color="black",
+            width=548,
+            height=173
+        )
+        self.Control.place(
+            x=43.0,
+            y=28.0
+        )
+
 
 
 if __name__ == '__main__':
