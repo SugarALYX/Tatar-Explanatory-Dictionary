@@ -93,14 +93,28 @@ def WordAdd(New_word: str, Explaining: str, way: str):
     :return: Записывает новое слово для дальнейшего использования
     """
     New_word = New_word.capitalize()
+
     f = open(path(New_word, way), "r", encoding="utf-8")
     text = f.read()
     f = open(path(New_word, way), "w", encoding="utf-8")
     f.write(f"{New_word} -{Explaining}\n\n\n\n\n{text}")
+    f = open(f"{way}New_Words.txt", "r", encoding="utf-8")
+    text = f.read()
+    f = open(f"{way}New_Words.txt", "w", encoding="utf-8")
+    f.write(f"{New_word} -{Explaining}\n\n\n\n\n{text}")
 
 
 def WordDelete(Word_for_deleting: str, way: str):
+    """
+    Удаляет слово
+    :param Word_for_deleting: Слово для удаления
+    :param way: путь
+    """
     Your_word = Word_for_deleting.capitalize()
+    f = open(f"{way}Deleted_Words.txt", "r", encoding="utf-8")
+    text = f.read()
+    f = open(f"{way}Deleted_Words.txt", "w", encoding="utf-8")
+    f.write(Explain(Word_for_deleting, way) + "\n\n\n\n\n" + text)
 
     fileo = open(path(Your_word, way), "r", encoding="utf-8")
     fileText = fileo.read()
