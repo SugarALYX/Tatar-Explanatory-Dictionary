@@ -99,6 +99,22 @@ def WordAdd(New_word: str, Explaining: str, way: str):
     f.write(f"{New_word} -{Explaining}\n\n\n\n\n{text}")
 
 
+def WordDelete(Word_for_deleting: str, way: str):
+    Your_word = Word_for_deleting.capitalize()
+
+    fileo = open(path(Your_word, way), "r", encoding="utf-8")
+    fileText = fileo.read()
+    index = fileText.find(Your_word)
+    findex = index
+    if Your_word in fileText:
+        while fileText[index] != "\n":
+            index += 1
+    lindex = index
+    fileText = fileText[0:findex] + fileText[lindex:(len(fileText)-1)]
+    f = open(path(Word_for_deleting, way), "w", encoding="utf-8")
+    f.write(fileText)
+
+
 def random_word_with_explain(way: str) -> str:
     """
     Функция находит случайное слово и её определение

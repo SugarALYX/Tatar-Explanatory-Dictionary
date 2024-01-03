@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Разработка Addition режима">
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Маленькие доработки">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/Assets/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/WordFind.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Абу Бакр/Мои чудесные проекты/Tatar-Explanatory-Dictionary&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Абу Бакр/Мои чудесные проекты/New-Tatar-Explanatory-Dictionary&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.32786885&quot;
   }
@@ -590,7 +591,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703930315933</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Маленькие доработки">
+      <option name="closed" value="true" />
+      <created>1703941039739</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1703941039739</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Маленькие доработки">
+      <option name="closed" value="true" />
+      <created>1704039866197</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1704039866197</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -641,6 +658,7 @@
     <MESSAGE value="Создал функцию добавления слов, начал создовать новое окно для реализации функции" />
     <MESSAGE value="мелкие исправления" />
     <MESSAGE value="Разработка Addition режима" />
-    <option name="LAST_COMMIT_MESSAGE" value="Разработка Addition режима" />
+    <MESSAGE value="Маленькие доработки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Маленькие доработки" />
   </component>
 </project>

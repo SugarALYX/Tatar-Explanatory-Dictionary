@@ -1,6 +1,6 @@
 import customtkinter as ctk
 import random
-from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain, WordAdd
+from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain, WordAdd, WordDelete
 
 
 class MenuOfDictionary:
@@ -681,6 +681,13 @@ class Addition:
         def operation():
             if "Добавить" == self.Control.get():
                 WordAdd(self.WordEntry.get(), self.ExplainEntry.get(), "Assets/Words/")
+            if "Удалить" == self.Control.get():
+                WordDelete(self.WordEntry.get(), "Assets/Words/")
+            if "Изменить" == self.Control.get():
+                word = self.WordEntry.get()
+                explain = self.ExplainEntry.get()
+                WordDelete(word, "Assets/Words/")
+                WordAdd(word, explain, "Assets/Words/")
 
         self.LeaveButton = ctk.CTkButton(
             self.AdditionWindow,
