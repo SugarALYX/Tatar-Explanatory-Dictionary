@@ -4,11 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Добавление, Изменение, Удаление слов">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="79151c94-3c3f-4503-a877-a53544d7c451" name="Changes" comment="Доработка">
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/WordFind.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/A`a`.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Aa.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Bb.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Chch.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Dd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Deleted_Words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Ee.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Ff.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Gg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/H`h`.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Hh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Ii.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Jaja.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Jeje.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Jj.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Juju.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Kk.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Ll.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Mm.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/New_Words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Nn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/O`o`.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Oo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Pp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Rr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Shsh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Ss.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Tt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/U`u`.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Uu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Vv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Yy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Zhzh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Татарский толковый словарь/Assets/Words/Zz.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/Assets/WordFind.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/Assets/WordFind.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/TatarExplanatoryDictionary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TatarExplanatoryDictionary.rar" beforeDir="false" afterPath="$PROJECT_DIR$/Татарский толковый словарь/TatarExplanatoryDictionary.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,12 +138,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Абу Бакр\My Great Projects\Tatar-Explanatory-Dictionary" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Абу Бакр\My Great Projects\Tatar-Explanatory-Dictionary" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\Assets" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\gui\Interface" />
       <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary" />
-      <recent name="C:\Users\Абу Бакр\Desktop\Мои чудесные проекты\Tatar-Explanatory-Dictionary\Tatar_Explanatory_Dictionary\gui\assets" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -624,7 +660,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704297879282</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Доработка">
+      <option name="closed" value="true" />
+      <created>1704922913540</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1704922913540</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -666,7 +710,6 @@
     <MESSAGE value="Доработка, режим случайных слов." />
     <MESSAGE value="Работа над GameMod.py" />
     <MESSAGE value="Доработан игровой режим" />
-    <MESSAGE value="Доработка" />
     <MESSAGE value="Собрал всё в один файл Menu.py" />
     <MESSAGE value="Маленькие исправления" />
     <MESSAGE value="Доработка SimplemodMenu(добавил маленькую клавиатуру с татарскими буквами)" />
@@ -676,6 +719,7 @@
     <MESSAGE value="Разработка Addition режима" />
     <MESSAGE value="Маленькие доработки" />
     <MESSAGE value="Добавление, Изменение, Удаление слов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление, Изменение, Удаление слов" />
+    <MESSAGE value="Доработка" />
+    <option name="LAST_COMMIT_MESSAGE" value="Доработка" />
   </component>
 </project>
