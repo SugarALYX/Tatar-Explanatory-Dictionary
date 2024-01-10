@@ -80,7 +80,7 @@ def Explain(Your_word: str, way: str) -> str:
             return ReturnText
         else:
             return "Слово не найдено"
-    except TypeError or FileNotFoundError:
+    except TypeError or FileNotFoundError or IndexError:
         return "Слово не найдено"
 
 

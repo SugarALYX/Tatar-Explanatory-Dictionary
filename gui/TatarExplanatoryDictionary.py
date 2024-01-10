@@ -1,6 +1,7 @@
 import customtkinter as ctk
 import random
 from gui.Assets.WordFind import random_word_with_explain, Explain, random_word_random_explain, WordAdd, WordDelete
+from time import sleep
 
 
 class MenuOfDictionary:
@@ -14,18 +15,22 @@ class MenuOfDictionary:
 
         def CreatAdditionWindow():
             Addition(self.Menu)
+            sleep(0.3)
             self.Menu.withdraw()
 
         def CreatSimpleModWindow():
             SimpleModMenu(self.Menu)
+            sleep(0.3)
             self.Menu.withdraw()
 
         def CreatRandomModWindow():
             RandomModMenu(self.Menu)
+            sleep(0.3)
             self.Menu.withdraw()
 
         def CreatGameModWindow():
             GameModMenu(self.Menu)
+            sleep(0.3)
             self.Menu.withdraw()
 
         def leave():
